@@ -1,1 +1,25 @@
-<p>add-aluno works!</p>
+<h4>Novo Aluno</h4>
+
+<form [formGroup]="addAluno" (ngSubmit)="SaveData()">
+
+  <div class="mb-3">
+    <label for="nome" class="form-label">Nome</label>
+    <input type="text" class="form-control" id="nome" placeholder="nome completo" formControlName="nome">
+
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="email principal" formControlName="email">
+
+  </div>
+
+  <div class="mb-3">
+    <label for="contato" class="form-label">Contato</label>
+    <input type="tel" class="form-control" id="contato" placeholder="Celular, Whatsapp .." formControlName="contato">
+  </div>
+
+
+
+  <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
