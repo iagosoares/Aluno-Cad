@@ -1,0 +1,10 @@
+{
+  "Alunos": [
+    { "id": 1, "nome": "Aluno 1", "email": "aluno1@gmail.com", "contato": "64 9 9961-0189" },
+    { "id": 2, "nome": "Aluno 2", "email": "aluno2@gmail.com","contato": "64 9 9961-0189" },
+    { "id": 3, "nome": "Aluno 3", "email": "aluno3@gmail.com","contato": "64 9 9961-0189" },
+    { "id": 4, "nome": "Aluno 4", "email": "aluno4@gmail.com","contato": "64 9 9961-0189" },
+    { "id": 5, "nome": "Aluno 5", "email": "aluno5@gmail.com","contato": "64 9 9961-0189" },
+    { "id": 6, "nome": "Aluno 6", "email": "aluno6@gmail.com","contato": "64 9 9961-0189" }
+  ]
+}
