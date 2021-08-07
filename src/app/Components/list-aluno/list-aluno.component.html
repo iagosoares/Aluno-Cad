@@ -13,11 +13,11 @@
     </tr>
   </thead>
   <tbody>
-    <tr >
-      <th scope="row">1</th>
-      <td>1</td>
-      <td>2</td>
-      <td>3/<td>
+    <tr *ngFor="let value of alunoData">
+      <th scope="row">{{value.id}}</th>
+      <td>{{value.nome}}</td>
+      <td>{{value.email}}</td>
+      <td>{{value.contato}}<td>
 
     </tr>
 
